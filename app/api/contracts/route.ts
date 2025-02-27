@@ -4,7 +4,7 @@ import OpenAI from 'openai';
 import { openai as aiSdkOpenAI } from '@ai-sdk/openai';
 import { streamText, embed } from 'ai';
 
-export const maxDuration = 300;
+export const maxDuration = 60;
 
 // Types
 export interface Message {
